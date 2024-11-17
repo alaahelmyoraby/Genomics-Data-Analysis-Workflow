@@ -4,7 +4,7 @@ Here's an updated `README.md` with detailed steps, commands, and output explanat
 # GWAS Workflow with PLINK
 
 This guide outlines the steps to perform Genome-Wide Association Studies (GWAS) using PLINK on a **Ubuntu** system. The workflow uses commands based on the provided dataset and produces results in the form of various output files.
-##path (base) alaa@AlaaHelmyOraby:/mnt/d/EG-COMPBIO/ISO/lec1/plink_win64_20241013
+## path (base) alaa@AlaaHelmyOraby:/mnt/d/EG-COMPBIO/ISO/lec1/plink_win64_20241013
 ---
 
 ## Prerequisites
@@ -13,7 +13,7 @@ This guide outlines the steps to perform Genome-Wide Association Studies (GWAS) 
 - **Input Files**: 
   - `.vcf`: Variant Call Format file (e.g., `Qatari156_filtered_pruned.vcf`).
   - `.ped` and `.map`: Required for some conversion steps.
-  - **Phenotype file** (e.g., `phenotype_new`).
+  - # Phenotype file (e.g., `phenotype_new`).
 
 ---
 
@@ -156,4 +156,4 @@ wc -l Qatari156_filtered_pruned.fam  # Number of individuals
 - [PLINK Documentation](https://www.cog-genomics.org/plink/)
 - Standard guidelines for GWAS quality control and population stratification correction.
 ```
-##Thanks!
+## Thanks !
