@@ -1,8 +1,6 @@
-Here's an updated `README.md` with detailed steps, commands, and output explanations, incorporating your filenames and clarifying that the code is run on a **Ubuntu** system using `plink.exe` for the PLINK tool.
-
 ```markdown
 # GWAS Workflow with PLINK
-
+Reference: ## Population Genetic Structure of the People of Qatar  https://pmc.ncbi.nlm.nih.gov/articles/PMC2896773/#app2
 This guide outlines the steps to perform Genome-Wide Association Studies (GWAS) using PLINK on a **Ubuntu** system. The workflow uses commands based on the provided dataset and produces results in the form of various output files.
 ## path (base) alaa@AlaaHelmyOraby:/mnt/d/EG-COMPBIO/plink_win64_20241013
 ---
