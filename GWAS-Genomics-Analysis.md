@@ -130,12 +130,9 @@ wc -l Qatari156_filtered_pruned.fam  # Number of individuals
 - **File Naming**: Use consistent, descriptive names to easily track the data processing steps.
 - **Adjust Filters**: Customize thresholds for `--geno`, `--hwe`, and `--maf` to suit your dataset and research goals.
 - **Check Logs**: Review `.log` files for potential warnings or errors during command execution.
-
-## References  
-
-- **PLINK Documentation**  
-- **Standard Guidelines for GWAS Quality Control and Population Stratification Correction**  
-
----
+-
+## Notes and Tips  
+- [PLINK Documentation](https://www.cog-genomics.org/plink/1.9/)
+```
 
 **Thanks!**
