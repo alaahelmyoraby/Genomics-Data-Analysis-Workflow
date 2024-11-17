@@ -1,4 +1,4 @@
-# GWAS Workflow with PLINK  
+# GWAS (Genomics) Workflow with PLINK  
 **Reference**: [Population Genetic Structure of the People of Qatar](https://pmc.ncbi.nlm.nih.gov/articles/PMC2896773/#app2)  
 
 This guide outlines the steps for performing Genome-Wide Association Studies (GWAS) using PLINK on an **Ubuntu** system. It details the commands based on the provided dataset and generates results in the form of various output files.
