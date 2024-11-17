@@ -135,4 +135,4 @@ wc -l Qatari156_filtered_pruned.fam  # Number of individuals
 - [PLINK Documentation](https://www.cog-genomics.org/plink/1.9/)
 ```
 
-**Thanks!**
+## Thanks!  
