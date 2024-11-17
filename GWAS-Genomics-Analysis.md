@@ -4,7 +4,7 @@ Here's an updated `README.md` with detailed steps, commands, and output explanat
 # GWAS Workflow with PLINK
 
 This guide outlines the steps to perform Genome-Wide Association Studies (GWAS) using PLINK on a **Ubuntu** system. The workflow uses commands based on the provided dataset and produces results in the form of various output files.
-
+##path (base) alaa@AlaaHelmyOraby:/mnt/d/EG-COMPBIO/ISO/lec1/plink_win64_20241013
 ---
 
 ## Prerequisites
@@ -156,9 +156,4 @@ wc -l Qatari156_filtered_pruned.fam  # Number of individuals
 - [PLINK Documentation](https://www.cog-genomics.org/plink/)
 - Standard guidelines for GWAS quality control and population stratification correction.
 ```
-
-### Key Improvements:
-1. **PLINK Command Usage**: Commands are tailored for `plink.exe` on an Ubuntu system.
-2. **Clarified Workflow**: Each step is clearly explained with corresponding commands and explanations for the outputs.
-3. **File Paths**: Consistent use of the filenames you've mentioned, ensuring clarity in file management.
-4. **R Code for Logistic Regression**: This is included to give an alternative for performing the statistical analysis outside PLINK.
+##Thanks!
