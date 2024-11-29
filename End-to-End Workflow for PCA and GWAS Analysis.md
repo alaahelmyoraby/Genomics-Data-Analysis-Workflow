@@ -2,7 +2,7 @@
 Ensure all required files are in the same directory and set it as the working directory in R:
 ```R
 getwd()
-setwd("D:/EG-COMPBIO/ISO/Genome/Assignment2/") 
+setwd() 
 ```
 
 ---
@@ -154,4 +154,5 @@ covariant_pc2_3 <- covariant_pc2_3[order(covariant_pc2_3$P), ]
 - [PLINK](https://www.cog-genomics.org/plink/2.0/)
 - R with the following libraries:
   - `ggplot2`
-###Thanks!
+  - 
+### Thanks!
