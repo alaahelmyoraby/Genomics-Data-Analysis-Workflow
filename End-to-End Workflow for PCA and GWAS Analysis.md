@@ -1,5 +1,3 @@
-### README: End-to-End Workflow for PCA and GWAS Analysis
-
 ### **1. Set Working Directory**
 Ensure all required files are in the same directory and set it as the working directory in R:
 ```R
