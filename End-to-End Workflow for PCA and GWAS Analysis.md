@@ -2,7 +2,7 @@
 Ensure all required files are in the same directory and set it as the working directory in R:
 ```R
 getwd()
-setwd("") 
+setwd("D:/EG-COMPBIO/ISO/Genome/Assignment2/") 
 ```
 
 ---
@@ -47,17 +47,23 @@ Perform association analysis with the phenotype:
 ### **5. Identify Significant SNPs**
 Set the Bonferroni correction threshold and filter significant SNPs:
 ```R
-bonferroni_threshold <- 0.05 / 67735  #of SNP
+bonferroni_threshold <- 0.05 / 67735
 qatar_assoc <- read.table("assoc_file.qassoc", header = TRUE)
 significant_snps <- qatar_assoc[qatar_assoc$P < bonferroni_threshold, ]
 significant_snps <- significant_snps[order(significant_snps$P), ]
 significant_snps <- head(significant_snps)
+
+# Save significant SNPs to a file
 write.table(significant_snps, "significant_snps.txt", row.names = FALSE)
+
+# Extract only SNP names and save them to another file
+snp_names <- significant_snps$SNP
+write.table(snp_names, "snp_names.txt", row.names = FALSE, quote = FALSE, col.names = FALSE)
 ```
 
 Extract significant SNPs using PLINK:
 ```bash
-./plink.exe --bfile Qatari156_filtered_pruned --extract significant_snps.txt --make-bed --out significant_snps
+./plink.exe --bfile Qatari156_filtered_pruned --extract snp_names.txt --make-bed --out significant_snps
 ```
 
 ---
@@ -144,12 +150,8 @@ covariant_pc2_3 <- covariant_pc2_3[order(covariant_pc2_3$P), ]
 
 ---
 
-### **Notes**
-- This workflow uses PCA components as covariates to adjust for population stratification.
-- Significant SNPs are identified using a Bonferroni correction.
-- Visualization steps require the `ggplot2` library in R.
-
 ### **Dependencies**
 - [PLINK](https://www.cog-genomics.org/plink/2.0/)
 - R with the following libraries:
   - `ggplot2`
+###Thanks!
