@@ -2,7 +2,7 @@
 Ensure all required files are in the same directory and set it as the working directory in R:
 ```R
 getwd()
-setwd("D:/EG-COMPBIO/ISO/Genome/Assignment2/") 
+setwd("") 
 ```
 
 ---
