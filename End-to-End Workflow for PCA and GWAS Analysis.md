@@ -52,7 +52,7 @@ qatar_assoc <- read.table("assoc_file.qassoc", header = TRUE)
 significant_snps <- qatar_assoc[qatar_assoc$P < bonferroni_threshold, ]
 significant_snps <- significant_snps[order(significant_snps$P), ]
 significant_snps <- head(significant_snps)
-write.csv(significant_snps, "significant_snps.txt", row.names = FALSE)
+write.table(significant_snps, "significant_snps.txt", row.names = FALSE)
 ```
 
 Extract significant SNPs using PLINK:
