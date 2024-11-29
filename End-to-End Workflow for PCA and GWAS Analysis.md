@@ -1,3 +1,5 @@
+**Reference**: For more information on principal component analysis (PCA) and GWAS methodology, refer to the article: [Price et al., 2006](https://pmc.ncbi.nlm.nih.gov/articles/PMC2896773/#app2).
+
 ### **1. Set Working Directory**
 Ensure all required files are in the same directory and set it as the working directory in R:
 ```R
